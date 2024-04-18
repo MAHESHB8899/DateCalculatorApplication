@@ -1,0 +1,30 @@
+server:
+  port: 1070
+  servlet:
+    session:
+      cookie:
+        name: JSESSIONID
+        path: /
+        http-only: false
+    context-path: /DateCalculator
+  error:
+    path: /error
+    
+ 
+  
+spring:
+  application:
+    name: DateCalculator    
+
+
+      
+      
+
+      
+
+      
+
+
+    
+   
+    
